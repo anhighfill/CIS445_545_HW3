@@ -1,0 +1,25 @@
+h1{
+    color: purple;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 2px solid;
+}
+
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-small;
+}
+
+h4{
+    color:darkslateblue;
+    font-family: cursive;
+}
+
+img{
+    float: right;
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid;
+}
+
+
