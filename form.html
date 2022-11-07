@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function display(form){
+            var email = form.email.value;
+            var topic = form.topic.value;
+            //alert("You have written your name as: " + name + " \nID as: " + id)
+            if (email == "")
+                alert("You cannot leave email field empty")
+            else
+                document.write("Thank you for your interest!!<br>")
+                document.write("<a href='form.html'>Resubmit contact information.</a><br>")
+                document.write("<a href='me.html'>Return to home page here.</a>")
+        }
+    </script>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <p><script>
+        window.alert("You will be submitting your personal email address...")
+    </script></p>
+    <form action="" method="">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Enter your email"></input><br><br>
+        <label for="topic">Topic:</label>
+        <input type="text" id="topic" name="topic" placeholder="Enter your topic"></input><br> <br>
+        <button onclick="display(this.form)">Submit</button>
+    </form>
+</body>
+</html>
