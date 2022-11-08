@@ -22,10 +22,13 @@ h3{
 }
 
 img{
+    align-items: center;
     float: right;
     display: inline-block;
     padding: 5px;
     border: 2px solid;
+    max-width: 25%;
+    max-height: 25%;
 }
 
 body{
